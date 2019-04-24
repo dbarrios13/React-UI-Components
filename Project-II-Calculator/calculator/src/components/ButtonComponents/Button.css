@@ -1,0 +1,20 @@
+button{
+    height: 70px;
+    font-size: 2rem;
+}
+.actionBtn{
+    width: 75%;
+    background: fixed;
+    color: black;
+}
+.mathBtn{
+    width: 25%;
+    background: darkred;
+    color: white;
+}
+
+.numberBtn {
+    width: 25%;
+    background: fixed;
+    color: black;
+}

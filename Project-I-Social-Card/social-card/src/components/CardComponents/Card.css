@@ -1,1 +1,31 @@
 /* All styles for your Card Components live here */
+
+.cardContainer{
+    width: 700px;
+    display: flex;
+    margin-right: 0px;
+    flex-direction: column;
+    align-items: flex-end;
+    cursor: pointer;
+}
+
+.cardContainer img{
+    width: 93%;
+    border: 1px solid grey;
+    border-radius: 5px;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+.cardContent {
+    max-width: 90.1%;
+    border: 1px solid lightgrey;
+    border-top: none;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    padding: 10px;
+}
+
+.cardContent span{
+    color: grey;
+}
